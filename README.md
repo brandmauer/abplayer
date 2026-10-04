@@ -2,6 +2,8 @@
 
 ABPlayer: the dream player tailored for audiobooks, music, and radio.
 
+https://brandmauer.github.io/
+
 ABPlayer was created by someone who actually listens to music and audiobooks. There are no social networks, subscriptions, or recommendation algorithms here. The code contains no user accounts, analytics, or ads. It’s just you, the music, the audiobooks, the radio, and handy little features that were sorely missing from other audio players.
 
 A–B Zoom. Mark the end of a segment with a single tap, and it zooms in or loops. This is perfect for tackling a tricky lecture paragraph or finding your place in files that are tens of hours long. An initial "micro-bookmark" appears automatically when playback starts, while an end marker is created when the sleep timer triggers or playback is paused. In "Zoom A ↔ B" mode, a dedicated slider appears just for that segment, allowing you to pinpoint the exact moment—even within a file lasting many hours.
