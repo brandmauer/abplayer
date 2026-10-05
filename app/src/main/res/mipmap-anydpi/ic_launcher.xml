@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Значок для Android 7.x (API < 26), где адаптивные иконки не поддерживаются.
+  Здесь холст 108dp выводится целиком, а в адаптивном значке (Android 8+) launcher показывает лишь
+  центральные 72dp — поэтому для 7.x используется отдельный, увеличенный вариант переднего плана.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher_background" />
+    <item android:drawable="@drawable/ic_launcher_foreground_legacy" />
+</layer-list>

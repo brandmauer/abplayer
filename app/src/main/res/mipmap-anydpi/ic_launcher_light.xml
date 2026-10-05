@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Светлый значок для Android 7.x (API < 26). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_launcher_background_light" />
+    <item android:drawable="@drawable/ic_launcher_foreground_light_legacy" />
+</layer-list>

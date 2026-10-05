@@ -1,0 +1,11 @@
+# подпись релиза — не публиковать
+keystore.properties
+*.jks
+*.keystore
+
+# сборка и локальные файлы
+.gradle/
+build/
+local.properties
+.idea/
+*.iml

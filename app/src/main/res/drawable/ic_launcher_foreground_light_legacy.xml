@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Значок для Android 7.x, светлый вариант. Геометрия 1:1 с DefaultCoverArt (CoverArt.kt): сетка 512, кольцо R=156, две дуги по 114° со стрелками, точки A/B, диск и play. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.2108"
+        android:scaleY="0.2108"
+        android:translateX="0.04"
+        android:translateY="0.04">
+
+        <!-- серая «дорожка» кольца -->
+        <path
+            android:pathData="M100,256 a156,156 0 1,0 312,0 a156,156 0 1,0 -312,0 Z"
+            android:fillColor="#00000000"
+            android:strokeColor="#1C171A2B"
+            android:strokeWidth="16" />
+
+        <!-- диск и play (треугольник со скруглёнными углами) -->
+        <path
+            android:pathData="M152,256 a104,104 0 1,0 208,0 a104,104 0 1,0 -208,0 Z"
+            android:fillColor="#5B6EEA" />
+        <path
+            android:pathData="M230,212 L230,300 L308,256 Z"
+            android:strokeWidth="16"
+            android:strokeLineJoin="round">
+            <aapt:attr name="android:fillColor">
+                <gradient android:startX="0" android:startY="212" android:endX="0" android:endY="300"
+                    android:startColor="#FFFFFF" android:endColor="#E4E7FF" />
+            </aapt:attr>
+            <aapt:attr name="android:strokeColor">
+                <gradient android:startX="0" android:startY="212" android:endX="0" android:endY="300"
+                    android:startColor="#FFFFFF" android:endColor="#E4E7FF" />
+            </aapt:attr>
+        </path>
+
+        <!-- две дуги -->
+        <path
+            android:pathData="M228.91,102.37 A156,156 0 0 1 407.37,293.74 M283.09,409.63 A156,156 0 0 1 104.63,218.26"
+            android:fillColor="#00000000"
+            android:strokeWidth="20"
+            android:strokeLineCap="round">
+            <aapt:attr name="android:strokeColor">
+                <gradient android:startX="96" android:startY="96" android:endX="416" android:endY="416"
+                    android:startColor="#7988EE" android:endColor="#5B6EEA" />
+            </aapt:attr>
+        </path>
+
+        <!-- стрелки -->
+        <path
+            android:pathData="M440.36,301.97 L387.72,339.59 L374.38,285.51 Z M71.64,210.03 L124.28,172.41 L137.62,226.49 Z"
+            android:strokeWidth="6"
+            android:strokeLineJoin="round">
+            <aapt:attr name="android:fillColor">
+                <gradient android:startX="96" android:startY="96" android:endX="416" android:endY="416"
+                    android:startColor="#7988EE" android:endColor="#5B6EEA" />
+            </aapt:attr>
+            <aapt:attr name="android:strokeColor">
+                <gradient android:startX="96" android:startY="96" android:endX="416" android:endY="416"
+                    android:startColor="#7988EE" android:endColor="#5B6EEA" />
+            </aapt:attr>
+        </path>
+
+        <!-- точки A и B -->
+        <path
+            android:pathData="M331.69,382.21 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 Z M148.31,129.79 a16,16 0 1,0 32,0 a16,16 0 1,0 -32,0 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient android:startX="96" android:startY="96" android:endX="416" android:endY="416"
+                    android:startColor="#7988EE" android:endColor="#5B6EEA" />
+            </aapt:attr>
+        </path>
+    </group>
+</vector>
